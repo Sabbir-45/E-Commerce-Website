@@ -1,82 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce project</title>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="This is a e" <title><E-Commerce Project></E-Commerce></title>
-    <!--font awsome cdn-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
-</head>
+    <!-- font awesome cdn  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- nav starts here  -->
+    <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+    <nav id="menu" class="hidden">
+      <ul class="nav-upper flex-space-around">
+        <li class="nav__list">
+          <a href="index.html" class="nav__link">Home</a>
+        </li>
+        <li class="nav__list">
+          <a href="register.html" class="nav__link">Register</a>
+        </li>
+        <li class="nav__list">
+          <a href="login.html" class="nav__link">Login</a>
+        </li>
+        <li class="nav__list">
+          <a href="index.html" class="nav__link">Logout</a>
+        </li>
+        <li class="nav__list">
+          <a href="contact.html" class="nav__link">Contact</a>
+        </li>
+        <li class="nav__list">
+          <a href="profile.html" class="nav__link">
+            <img
+              src="/images/profile.png"
+              class="profile-icon"
+              alt="profile"
+            />
+          </a>
+        </li>
+      </ul>
 
-<body>
-<!-- nav starts here  -->
-<i class="fas fa-bars fa-2x" id="menu-icon"></i>
-<nav id="menu" class="hidden">
-  <ul class="nav-upper flex-space-around">
-    <li class="nav__list">
-      <a href="index.html" class="nav__link">Home</a>
-    </li>
-    <li class="nav__list">
-      <a href="register.html" class="nav__link">Register</a>
-    </li>
-    <li class="nav__list">
-      <a href="login.html" class="nav__link">Login</a>
-    </li>
-    <li class="nav__list">
-      <a href="index.html" class="nav__link">Logout</a>
-    </li>
-    <li class="nav__list">
-      <a href="contact.html" class="nav__link">Contact</a>
-    </li>
-    <li class="nav__list">
-      <a href="profile.html" class="nav__link">
-        <img
-          src="/images/profile.png"
-          class="profile-icon"
-          alt="profile"
+      <ul class="nav-lower flex-space-around">
+        <li class="nav__list">
+          <a href="index.html" class="nav__link nav__brand">Easy Express</a>
+        </li>
+        <li class="nav__list">
+          <a href="cart.html" class="nav__link">
+            <span>
+              <i class="fa-solid fa-cart-shopping"></i>
+              Cart 2 Products - $124.40
+            </span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <!-- nav ends here  -->
+
+
+    <footer class="footer flex-space-around">
+      <div class="flex-space-around">
+        <label for="subscribe">Subscribe to Newsletter: </label>
+        <input
+          type="email"
+          id="subscribe"
+          name="subscribe"
+          class="footer__input"
+          placeholder="Your Email Address"
         />
-      </a>
-    </li>
-  </ul>
+        <button class="btn btn-subscribe">subscribe</button>
+      </div>
+      <div>
+        <p>&copy; Copyright 2023 Easy Express. All rights rserved</p>
+      </div>
+    </footer>
 
-  <ul class="nav-lower flex-space-around">
-    <li class="nav__list">
-      <a href="index.html" class="nav__link nav__brand">Easy Express</a>
-    </li>
-    <li class="nav__list">
-      <a href="cart.html" class="nav__link">
-        <span>
-          <i class="fa-solid fa-cart-shopping"></i>
-          Cart 2 Products - $124.40
-        </span>
-      </a>
-    </li>
-  </ul>
-</nav>
-<!-- nav ends here  -->>
-
-<!--Fotter Start-->
-<footer class="footer flex-space-around">
-    <div class="flex-space-around">
-      <label for="subscribe">Subscribe to Newsletter: </label>
-      <input
-        type="email"
-        id="subscribe"
-        name="subscribe"
-        class="footer__input"
-        placeholder="Your Email Address"
-      />
-      <button class="btn btn-subscribe">subscribe</button>
-    </div>
-    <div>
-      <p>&copy; Copyright 2023 Easy Express. All rights rserved</p>
-    </div>
-  </footer>
-<!--Fotter Ends here-->
-</body>
-
+    <script src="./index.js"></script>
+  </body>
 </html>
