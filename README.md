@@ -4,6 +4,11 @@
 
 Welcome to Easy Express 
 
+<h1>Devloped By
+<h2>NAKIB AL HASAN SABBIR</h2>
+<h2>ID:221-15-4760
+<h2>DIU
+
 ## About
 Easy Express is a user-friendly e-commerce platform designed to provide customers with a seamless shopping experience. Built entirely with HTML and CSS, our website offers a wide range of products, from fashion to electronics, ensuring there's something for everyone.
 
